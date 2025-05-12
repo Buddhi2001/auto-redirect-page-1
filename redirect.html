@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="si">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting...</title>
+  <script>
+    // පළමුව localStorage එකේ 'visited' key එක පරීක්ෂා කරන්න
+    if (localStorage.getItem("visited")) {
+      // 'visited' key එක තිබේ නම්, redirect කරන්න
+      window.location.href = "https://sawutser.top/4/9322783";
+    }
+
+    function goToLink() {
+      // 'visited' key එක set කරන්න
+      localStorage.setItem("visited", "true");
+      // link එකට redirect කරන්න
+      window.location.href = "https://sawutser.top/4/9322783";
+    }
+  </script>
+</head>
+<body>
+  <h2>මගේ විශේෂ link එකට පිවිසෙන්න</h2>
+  <button onclick="goToLink()">Click Here</button>
+</body>
+</html>
